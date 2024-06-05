@@ -1,4 +1,7 @@
 # mina-inu-contract
+
+https://minainu.com
+
 The token and airdrop contract of Mina Inu
 
 The contract is currently modifiable, but it will be made unmodifiable once the airdrop ends – the airdrop and minting functionalities will be disabled.
