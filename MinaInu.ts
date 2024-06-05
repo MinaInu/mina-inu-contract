@@ -26,7 +26,8 @@ export class MinaInu extends TokenContract {
       send: Permissions.proof(),
       });
     this.account.tokenSymbol.set('MINU');
-    // this.account.isNew.requireNothing();
+    this.account.isNew.requireNothing();
+    this.account.zkappUri.set('https://minainu.com')
   }
 
   @method async init() {
